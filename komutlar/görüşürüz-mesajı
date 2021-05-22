@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
       new Discord.MessageEmbed()
        .setDescription(`-sunucu- , -uye-, -uyetag-, -daveteden-, -davetoldu-`)
         .setColor("#E70000")
-        .setFooter(bot.user.username, bot.user.avatarURL()
+        .setFooter(bot.user.username, bot.user.avatarURL())
     );
   }
 
